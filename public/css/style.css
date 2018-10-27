@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    font-family: Arial;
+}
+h1 {
+    font-size:2.75em;
+}
+
+h2 {
+    padding-left: 1em;
+}
+.bg { 
+    /* The image used */
+    background-image: url("../img/background-photo-min.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.25em;
+}
