@@ -4,6 +4,24 @@
   },
   "hosting": {
     "public": "public",
+    "rewrites": [ 
+      {
+        "source": "/seefood",
+        "destination": "/seefood.html"
+      },
+      {
+        "source": "/indicrafts",
+        "destination": "/indicrafts.html"
+      },
+      {
+        "source": "/panda",
+        "destination": "/panda.html"
+      },
+      {
+        "source": "/terptunes",
+        "destination": "/terptunes.html"
+      }
+  ],
     "ignore": [
       "firebase.json",
       "**/.*",
