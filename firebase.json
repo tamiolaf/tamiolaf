@@ -10,6 +10,10 @@
         "destination": "/seefood.html"
       },
       {
+        "source": "/bit-by-bit",
+        "destinantion": "/bit-by-bit/index.html"
+      },
+      {
         "source": "/indicrafts",
         "destination": "/indicrafts.html"
       },
@@ -27,5 +31,8 @@
       "**/.*",
       "**/node_modules/**"
     ]
+  },
+  "functions": {
+    "runtime": "nodejs10"
   }
 }

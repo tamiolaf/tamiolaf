@@ -1,0 +1,129 @@
+<html style="background-color:white">
+<head>
+  <title>Bit By Bit | Home</title>
+  <div align="center" style ="height:250px;width:end; background-color:white"> <img src="bbbheaderFINAL.jpg" style="height:250px; width:750px"> </div>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  
+</head>
+<body>
+<script>
+
+      var svgContainer;
+
+window.onload = function() {
+  var connection = new WebSocket('wss://ws.blockchain.info/inv'/*,['soap', 'xmpp']*/);
+//var cashSound = new sound("cash2.mp3");
+
+      connection.onopen = function(){
+      console.log("Opened connection.");
+      connection.send('{"op":"unconfirmed_sub"}');
+
+      svgContainer  = d3.select("body").append("svg")
+                                     .attr("width", 1900)
+                                     .attr("height", 1000);
+    }
+    connection.onmessage = function(e){
+
+      var transactionDictionary = (JSON.parse(e.data)["x"]);
+
+
+      //Access properties
+      var size = transactionDictionary["size"];
+      var time = transactionDictionary["time"];
+      var transactionIndex = transactionDictionary["tx_index"];
+      var hash = transactionDictionary["hash"];
+      var lockTime = transactionDictionary["lock_time"];
+
+      //Input/Output UTXOs -- testing
+      var inputAddresses = [];
+      var inputSatoshi = 0;
+      var outputAddresses = [];
+      var outputSatoshi = 0;
+
+      var inputsArray = transactionDictionary["inputs"];
+      var outputsArray = transactionDictionary["out"];
+
+function sigmoid(x) {
+  return 1.0/(1.0 + Math.exp(-x));
+}
+function toColor(num) {
+  num >>>= 0;
+  var b = num & 0xFF,
+   g = (num & 0xFF00) >>> 8,
+    r = (num & 0xFF0000) >>> 16,
+     a = sigmoid(num/1000);
+      return "rgba(" + [r, g, b, a].join(",") + ")";
+    }
+
+  //Draw the Ellipse
+
+      var circle = svgContainer.append("circle")
+       .attr("cx", function() { return Math.random() * 1900 % 1900 } )
+       .attr("cy", function() { return Math.random() * 1000 % 1000 })
+       .attr("r" , function() { return size % 10 })
+       .attr("fill", function(){ return toColor(size)});
+
+
+
+      console.log("The transaction " + transactionIndex + ": has size " + size + " and hash of " + hash + " at time " + time);
+      console.log("UTXO Inputs: " + inputsArray.length + "    Outputs: " + outputsArray.length); // Amount of input/outputs UTXOs
+
+      //Get more transaction details
+      //Inputs
+      for( i = 0; i < inputsArray.length; i++) {
+          //console.log(i.toString() + " : "+ inputsArray[i]["prev_out"]["addr"] );
+          inputAddresses.push(inputsArray[i]["prev_out"]["addr"])
+          inputSatoshi += inputsArray[i]["prev_out"]["value"]
+      }
+
+      //Outputs
+      for (j = 0; j < outputsArray.length; j++) {
+          outputAddresses.push(outputsArray[j]["addr"])
+          outputSatoshi += outputsArray[j]["value"]
+      }
+
+      console.log("Input satoshi: " + inputSatoshi + "    Output Satoshi: " + outputSatoshi);
+      console.log("--------------------------")
+      //cashSound.play();
+    }
+    }
+// Play sound after every transaction
+/*function sound(src) {
+  this.sound = document.createElement("audio");
+  this.sound.src = src;
+   this.sound.setAttribute("preload", "auto");
+   this.sound.setAttribute("controls", "none");
+   this.sound.style.display = "none";
+   console.log("Sound: " + this.sound)
+    console.log("Body: " + document.body)
+    document.body.appendChild(this.sound);
+    this.play = function(){
+       this.sound.play();
+     }
+     this.stop = function(){
+      this.sound.pause();*/
+    //}
+ // }
+</script>
+<div align="center">
+<div align="left" style ="height:300px;width:750px; background-color:pink;border: 5px solid black;border-radius:15px">
+ 
+ <p style="font-size:16px;font-family:Helvetica;margin-left:15px"> Welcome to the <b> Blockchain Visualizer</b>! This was a project started at <a href="https://medium.com/mit-media-lab-digital-currency-initiative/25-students-selected-for-the-mit-intro-to-cryptocurrency-bootcamp-for-people-of-color-and-women-fae3bcd9fe22#.n98o4h2ea"> MIT's Digital Currency Initiative Cryptocurrency Bootcamp </a> in August 2016. We learned about the transactions that take place on the blockchain and realized that it was very difficult for non-technical people to visualize. We made this project in an attempt to make it easier to understand. </p> 
+
+ <p style="font-size:16px;font-family:Helvetica;margin-left:15px">Below you'll see a dots popping up periodically. Each dot is a bitcoin transaction that has taken place on the blockchain. The size and darkness of the dot correlates with the size of the transaction. If you wait long enough, a beautiful piture will be made that you can use for your screensaver. </p>
+
+
+<ul style="font-family:Helvetica"> <span style="font-family:Helvetica;margin-left:-25px"> This is the team that worked on this project! </span>
+  <li > <a href="https://www.linkedin.com/in/maxcell?authType=NAME_SEARCH&authToken=3Nce&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A376925786%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1473797117252%2Ctas%3Amaxc" style="color:blue;text-decoration:none;font-family:Helvetica"> Maxcell (Prince) Wilson </a> </li>
+  <li> <a href= "https://www.linkedin.com/in/cerale?authType=NAME_SEARCH&authToken=akrN&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A370963437%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1473797112183%2Ctas%3Aalejan" style="color:blue;text-decoration:none;font-family:Helvetica"> Alejandra Cervantes </a> </li>
+  <li> <a href= "https://www.linkedin.com/in/pedro-sandoval-segura-170641123?authType=NAME_SEARCH&authToken=K-EL&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A512181156%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1473797121294%2Ctas%3Apedro" style="color:blue;text-decoration:none;font-family:Helvetica"> Pedro Sandoval Segura</a> </li>
+  <li> <a href="https://www.linkedin.com/in/sze-nga-wong?authType=name&authToken=QpIZ&trk=hp-feed-member-name" style="color:blue;text-decoration:none;font-family:Helvetica"> Sze Nga Wong </a> </li>
+  <li> <a style="color:blue;text-decoration:none;font-family:Helvetica" href="https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US"> Tami Olafunmiloye </a> </li>
+
+  
+</ul>
+</div>
+</div>
+</body>
+</html>
