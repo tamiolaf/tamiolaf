@@ -1,22 +1,20 @@
-import logo from './logo.svg';
 import './App.scss';
+import profile_pic from './profile-pic.jpeg'
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={profile_pic} alt={'Tami Olafunmiloye'} className="profile-pic"/>
+        <div style={{ backgroundColor: '#fff', marginTop: '.5rem', padding: '.5rem', border: '3px solid black' }}>Hi, I'm Tami Olafunmiloye.</div>
+        <div style={{ backgroundColor: '#fff', marginTop: '.75rem', padding: '.5rem', border: '3px solid black' }}>I'm a full stack engineer with experience in finance and media!</div>
+        <div style={{ backgroundColor: '#fff', marginTop: '.75rem', padding: '.5rem .75rem', border: '3px solid black' }}>
+          <a style={{ textDecoration: 'none', color: 'black' }} href="https://www.github.com/tamiolaf"> <i className="fab fa-github-square fa-3x"></i></a>
+          <a style={{ textDecoration: 'none', color: 'black' }} href="https://www.linkedin.com/in/tamiolaf"> <i className="fab fa-linkedin fa-3x"></i></a>
+          <a style={{ textDecoration: 'none', color: 'black' }} href="https://www.twitter.com/tamiolaf"> <i className="fab fa-twitter-square fa-3x"></i></a>
+          <a style={{ textDecoration: 'none', color: 'black' }} href="mailto:tamiolaf@gmail.com"> <i className="fas fa-envelope-square fa-3x"></i></a>
+        </div>
       </header>
     </div>
   );
