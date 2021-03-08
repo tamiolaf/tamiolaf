@@ -19,7 +19,6 @@ Different changes: Added, Changed, Deprecated, Removed, Fixed, Security
 
 ### Changed
 - .css files to .scss files
-- 
 
 ## [0.1.0] - 2021-03-06
 ### Added
