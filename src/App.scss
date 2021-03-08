@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background: repeating-linear-gradient(
+  45deg,
+  #000,
+  #000 40px,
+  #fff 40px,
+  #fff 80px
+);
 }
 
 .App-logo {
@@ -14,14 +21,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .App-link {
@@ -35,4 +42,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.profile-pic {
+  max-height: 20rem;
+  max-width: 20rem;
+  border-radius: 50%;
+  border: 3px solid black;
 }
