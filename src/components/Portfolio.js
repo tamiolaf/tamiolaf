@@ -7,4 +7,4 @@ function Portfolio() {
         </div>)
 }
 
-export default withRouter(Portfolio);
+export default Portfolio;

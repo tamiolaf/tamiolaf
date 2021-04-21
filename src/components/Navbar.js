@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import * as routes from '../routes';
 
 // add active/inactive states for NavLinks based on hover and currently visiting
@@ -6,7 +6,8 @@ function Navbar() {
     return (
         <div style={{'backgroundColor': 'white'}}>
                 <nav>
-                    <ul>
+                    <ul style={{'listStyleType': 'none', 'display': 'flex', 'justifyContent':'space-around'}}>
+                        <li><NavLink to={routes.HOME}>Home</NavLink></li>
                         <li><NavLink to={routes.PORTFOLIO}>Portfolio</NavLink></li>
                         <li><NavLink to={routes.BLOG}>Blog</NavLink></li>
                         <li><NavLink to={routes.ABOUT_ME}>About Me</NavLink></li>

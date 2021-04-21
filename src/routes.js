@@ -1,3 +1,4 @@
+export const HOME = '/';
 export const PORTFOLIO = '/portfolio';
 export const BLOG = '/blog';
 export const ABOUT_ME = '/about-me';

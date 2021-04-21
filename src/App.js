@@ -1,24 +1,35 @@
 import './App.scss';
-import profile_pic from './profile-pic.jpeg'
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import * as routes from './routes';
+import Portfolio from './components/Portfolio';
+import Blog from './components/Blog';
+import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Playground from './components/Playground';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
+
 function App() {
 
   return (
     <div className="App">
+
+      <Router>
       <header>
         <Navbar/>
       </header>
-      <main className="App-main">
-      <img src={profile_pic} alt={'Tami Olafunmiloye'} className="profile-pic"/>
-        <div style={{ backgroundColor: '#fff', marginTop: '.5rem', padding: '.5rem', border: '3px solid black' }}>Hi, I'm Tami Olafunmiloye.</div>
-        <div style={{ backgroundColor: '#fff', marginTop: '.75rem', padding: '.5rem', border: '3px solid black' }}>I'm a full stack engineer with experience in finance and media!</div>
-        <div style={{ backgroundColor: '#fff', marginTop: '.75rem', padding: '.5rem .75rem', border: '3px solid black' }}>
-          <a style={{ textDecoration: 'none', color: 'black' }} href="https://www.github.com/tamiolaf"> <i className="fab fa-github-square fa-3x"></i></a>
-          <a style={{ textDecoration: 'none', color: 'black' }} href="https://www.linkedin.com/in/tamiolaf"> <i className="fab fa-linkedin fa-3x"></i></a>
-          <a style={{ textDecoration: 'none', color: 'black' }} href="https://www.twitter.com/tamiolaf"> <i className="fab fa-twitter-square fa-3x"></i></a>
-          <a style={{ textDecoration: 'none', color: 'black' }} href="mailto:tamiolaf@gmail.com"> <i className="fas fa-envelope-square fa-3x"></i></a>
-        </div>
-      </main>
+      <Switch>
+        <Route path={routes.PORTFOLIO} component={Portfolio} />
+        <Route path={routes.BLOG} component={Blog} />
+        <Route path={routes.ABOUT_ME} component={AboutMe} />
+        <Route path={routes.CONTACT} component={Contact} />
+        <Route path={routes.RESUME} component={Resume} />
+        <Route path={routes.PLAYGROUND} component={Playground} />
+        <Route exact path={routes.HOME} component={Home} />
+      </Switch>
+    </Router>
+
     </div>
   );
 }
