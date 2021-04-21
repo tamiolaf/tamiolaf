@@ -1,12 +1,15 @@
 import './App.scss';
 import profile_pic from './profile-pic.jpeg'
-
+import Navbar from './components/Navbar';
 function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={profile_pic} alt={'Tami Olafunmiloye'} className="profile-pic"/>
+      <header>
+        <Navbar/>
+      </header>
+      <main className="App-main">
+      <img src={profile_pic} alt={'Tami Olafunmiloye'} className="profile-pic"/>
         <div style={{ backgroundColor: '#fff', marginTop: '.5rem', padding: '.5rem', border: '3px solid black' }}>Hi, I'm Tami Olafunmiloye.</div>
         <div style={{ backgroundColor: '#fff', marginTop: '.75rem', padding: '.5rem', border: '3px solid black' }}>I'm a full stack engineer with experience in finance and media!</div>
         <div style={{ backgroundColor: '#fff', marginTop: '.75rem', padding: '.5rem .75rem', border: '3px solid black' }}>
@@ -15,7 +18,7 @@ function App() {
           <a style={{ textDecoration: 'none', color: 'black' }} href="https://www.twitter.com/tamiolaf"> <i className="fab fa-twitter-square fa-3x"></i></a>
           <a style={{ textDecoration: 'none', color: 'black' }} href="mailto:tamiolaf@gmail.com"> <i className="fas fa-envelope-square fa-3x"></i></a>
         </div>
-      </header>
+      </main>
     </div>
   );
 }
