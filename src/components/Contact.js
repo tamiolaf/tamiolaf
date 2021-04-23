@@ -1,7 +1,8 @@
 function Contact() {
     return (
         <div>
-            contact
+            contact: email, phone number (Maybe use a google number)
+            blurb about availibility?
         </div>
     )
 }
