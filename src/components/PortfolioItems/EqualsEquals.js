@@ -1,6 +1,6 @@
 import equalsequalsLogo from '../../img/EqualsEquals/equalsEqualsLogo.jpg';
-import podiumPic from '../../img/EqualsEquals/podiumPic.jpg';
-import allWinnersPic from '../../img/EqualsEquals/allWinnersPic.jpg';
+// import podiumPic from '../../img/EqualsEquals/podiumPic.jpg';
+// import allWinnersPic from '../../img/EqualsEquals/allWinnersPic.jpg';
 
 const EqualsEquals = () => {
     return (

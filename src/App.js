@@ -9,10 +9,10 @@ import Resume from './components/Resume';
 import Playground from './components/Playground';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import BuzzFeed from './components/PortfolioItems/BuzzFeed';
-import EqualsEquals from './components/PortfolioItems/EqualsEquals';
-import MITDCI from './components/PortfolioItems/MITDCI';
-import SeeFood from './components/PortfolioItems/SeeFood';
+// import BuzzFeed from './components/PortfolioItems/BuzzFeed';
+// import EqualsEquals from './components/PortfolioItems/EqualsEquals';
+// import MITDCI from './components/PortfolioItems/MITDCI';
+// import SeeFood from './components/PortfolioItems/SeeFood';
 
 function App() {
 

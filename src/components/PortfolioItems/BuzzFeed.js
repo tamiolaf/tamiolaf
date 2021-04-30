@@ -24,8 +24,8 @@ const BuzzFeed = () => {
         return (
             <div>
                 <Carousel>
-                    <div><img src={ccpaMenuMobile}/></div>
-                    <div><img src={ccpaFooterMobile}/></div>
+                    <div><img src={ccpaMenuMobile} alt=""/></div>
+                    <div><img src={ccpaFooterMobile} alt=""/></div>
                 </Carousel>
             </div>
         )
@@ -35,13 +35,13 @@ const BuzzFeed = () => {
         return (
             <div>
                 <Carousel>
-                    <div><img src={fincenFilesPackage1}/></div>
-                    <div><img src={fincenFilesPackage2}/></div>
-                    <div><img src={fincenFilesPackage3}/></div>
-                    <div><img src={fincenFilesPackage4}/></div>
-                    <div><img src={fincenFilesPackage5}/></div>
-                    <div><img src={fincenFilesPackage1Mobile}/></div>
-                    <div><img src={fincenFilesPackage2Mobile}/></div>
+                    <div><img src={fincenFilesPackage1} alt=""/></div>
+                    <div><img src={fincenFilesPackage2} alt=""/></div>
+                    <div><img src={fincenFilesPackage3} alt=""/></div>
+                    <div><img src={fincenFilesPackage4} alt="" /></div>
+                    <div><img src={fincenFilesPackage5} alt=""/></div>
+                    <div><img src={fincenFilesPackage1Mobile} alt=""/></div>
+                    <div><img src={fincenFilesPackage2Mobile} alt=""/></div>
                 </Carousel>
             </div>
         )
@@ -51,8 +51,8 @@ const BuzzFeed = () => {
         return (
             <div>
                 <Carousel>
-                    <div><img src={fincenFilesBannerDesktop}/></div>
-                    <div><img src={fincenFilesBannerMobile}/></div>
+                    <div><img src={fincenFilesBannerDesktop} alt=""/></div>
+                    <div><img src={fincenFilesBannerMobile} alt=""/></div>
                 </Carousel>
             </div>
         )
@@ -62,9 +62,9 @@ const BuzzFeed = () => {
         return (
             <div>
                 <Carousel>
-                    <div><img src={nativeInstream1}/></div>
-                    <div><img src={nativeInstreamMobile}/></div>
-                    <div><img src={nativeInstreamDesktop}/></div>
+                    <div><img src={nativeInstream1} alt=""/></div>
+                    <div><img src={nativeInstreamMobile} alt=""/></div>
+                    <div><img src={nativeInstreamDesktop} alt=""/></div>
                 </Carousel>
             </div>
         )
@@ -74,8 +74,8 @@ const BuzzFeed = () => {
         return (
             <div>
                 <Carousel>
-                    <div><img src={newsTickerDesktop}/></div>
-                    <div><img src={newsTickerMobileGif}/></div>
+                    <div><img src={newsTickerDesktop} alt=""/></div>
+                    <div><img src={newsTickerMobileGif} alt=""/></div>
                 </Carousel>
             </div>
         )
@@ -111,7 +111,7 @@ const BuzzFeed = () => {
                 </div>
                 <div>
                     2020 Election
-                    <img src={election2020QCU} />
+                    <img src={election2020QCU} alt=""/>
                 </div>
                 <div>
                     ccpa
@@ -120,9 +120,9 @@ const BuzzFeed = () => {
             </section>
         </div>
     )
+
+    {/* https://twitter.com/SchoofsFeed/status/1307726238027452416?s=20
+    https://twitter.com/brknyc/status/1307760906131120128?s=20 */}
 };
 
 export default BuzzFeed;
-
-{/* https://twitter.com/SchoofsFeed/status/1307726238027452416?s=20 */}
-{/* https://twitter.com/brknyc/status/1307760906131120128?s=20 */}

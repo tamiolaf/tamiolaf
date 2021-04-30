@@ -25,10 +25,10 @@ import WebAppScreenshot11 from '../../img/SeeFood/WebApp/screenshot11.png';
 import WebAppScreenshot12 from '../../img/SeeFood/WebApp/screenshot12.png';
 import WebAppScreenshot13 from '../../img/SeeFood/WebApp/screenshot13.png';
 import WebAppScreenshot14 from '../../img/SeeFood/WebApp/screenshot14.png';
-import enterpreneurPic from '../../img/SeeFood/PeoplePics/enterpreneurSeeFood.jpg';
-import soloGogglesPic from '../../img/SeeFood/PeoplePics/soloGogglesPic.jpg';
-import groupGogglesPic from '../../img/SeeFood/PeoplePics/groupGogglesPic.jpg';
-import chikfilaEventGif from '../../img/SeeFood/PeoplePics/chikfilaEvent.gif';
+// import enterpreneurPic from '../../img/SeeFood/PeoplePics/enterpreneurSeeFood.jpg';
+// import soloGogglesPic from '../../img/SeeFood/PeoplePics/soloGogglesPic.jpg';
+// import groupGogglesPic from '../../img/SeeFood/PeoplePics/groupGogglesPic.jpg';
+// import chikfilaEventGif from '../../img/SeeFood/PeoplePics/chikfilaEvent.gif';
 
 
 //dislplay screenshots on computers where you can "scroll down"
@@ -38,8 +38,8 @@ const SeeFood = () =>
         return (
             <div class="carousel-wrapper">
                 <Carousel>
-                    <div><img src={AppsScriptScreenshot1} /></div>
-                    <div><img src={AppsScriptScreenshot2} /></div>
+                    <div><img src={AppsScriptScreenshot1} alt=""/></div>
+                    <div><img src={AppsScriptScreenshot2} alt=""/></div>
                 </Carousel>
             </div>
         )
@@ -49,13 +49,13 @@ const SeeFood = () =>
         return (
             <div class="carousel-wrapper">
                 <Carousel>
-                    <div><img src={StaticSiteScreenshot1} /></div>
-                    <div><img src={StaticSiteScreenshot2} /></div>
-                    <div><img src={StaticSiteScreenshot3} /></div>
-                    <div><img src={StaticSiteScreenshot4} /></div>
-                    <div><img src={StaticSiteScreenshot5} /></div>
-                    <div><img src={StaticSiteScreenshot6} /></div>
-                    <div><img src={StaticSiteScreenshot7} /></div>
+                    <div><img src={StaticSiteScreenshot1} alt=""/></div>
+                    <div><img src={StaticSiteScreenshot2} alt=""/></div>
+                    <div><img src={StaticSiteScreenshot3} alt=""/></div>
+                    <div><img src={StaticSiteScreenshot4} alt=""/></div>
+                    <div><img src={StaticSiteScreenshot5} alt=""/></div>
+                    <div><img src={StaticSiteScreenshot6} alt=""/></div>
+                    <div><img src={StaticSiteScreenshot7} alt=""/></div>
                 </Carousel>
             </div>
         )
@@ -65,20 +65,20 @@ const SeeFood = () =>
         return (
             <div class="carousel-wrapper">
                 <Carousel>
-                    <div><img src={WebAppScreenshot1} /></div>
-                    <div><img src={WebAppScreenshot2} /></div>
-                    <div><img src={WebAppScreenshot3} /></div>
-                    <div><img src={WebAppScreenshot4} /></div>
-                    <div><img src={WebAppScreenshot5} /></div>
-                    <div><img src={WebAppScreenshot6} /></div>
-                    <div><img src={WebAppScreenshot7} /></div>
-                    <div><img src={WebAppScreenshot8} /></div>
-                    <div><img src={WebAppScreenshot9} /></div>
-                    <div><img src={WebAppScreenshot10} /></div>
-                    <div><img src={WebAppScreenshot11} /></div>
-                    <div><img src={WebAppScreenshot12} /></div>
-                    <div><img src={WebAppScreenshot13} /></div>
-                    <div><img src={WebAppScreenshot14} /></div>
+                    <div><img src={WebAppScreenshot1} alt=""/></div>
+                    <div><img src={WebAppScreenshot2} alt=""/></div>
+                    <div><img src={WebAppScreenshot3} alt=""/></div>
+                    <div><img src={WebAppScreenshot4} alt=""/></div>
+                    <div><img src={WebAppScreenshot5} alt=""/></div>
+                    <div><img src={WebAppScreenshot6} alt=""/></div>
+                    <div><img src={WebAppScreenshot7} alt=""/></div>
+                    <div><img src={WebAppScreenshot8} alt=""/></div>
+                    <div><img src={WebAppScreenshot9} alt=""/></div>
+                    <div><img src={WebAppScreenshot10} alt=""/></div>
+                    <div><img src={WebAppScreenshot11} alt=""/></div>
+                    <div><img src={WebAppScreenshot12} alt=""/></div>
+                    <div><img src={WebAppScreenshot13} alt=""/></div>
+                    <div><img src={WebAppScreenshot14} alt=""/></div>
                 </Carousel>
             </div>
         )
