@@ -7,7 +7,7 @@ function AboutMe() {
             <div style={{border: '.1875rem solid black', padding: '0 1rem'}}>
                 <p>
                     I'm a full stack software engineer based in Washington, D.C. I graduated from the University of Maryland 
-                    in 2019 with a bachelors degree in Mechanical Engineering, but realized I liked software more than hardware!
+                    in 2019 with a bachelor's degree in Mechanical Engineering, but realized I liked software more than hardware!
                     I've done a few internships in fintech and I'm currently working as a software engineer for <a href='https://www.buzzfeed.com'> BuzzFeed</a>
                     . I'm on the BuzzFeed News team where I've helped build products that enhance the experience of our readers, and 
                     lighten the load for our reporters. 
