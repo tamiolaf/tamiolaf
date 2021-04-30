@@ -9,18 +9,34 @@ import Resume from './components/Resume';
 import Playground from './components/Playground';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import BuzzFeed from './components/PortfolioItems/BuzzFeed';
+import EqualsEquals from './components/PortfolioItems/EqualsEquals';
+import MITDCI from './components/PortfolioItems/MITDCI';
+import SeeFood from './components/PortfolioItems/SeeFood';
 
 function App() {
 
   return (
-    <div className="">
+    <div className="" >
 
       <Router>
       <header>
         <Navbar/>
       </header>
       <Switch>
-        <Route path={routes.PORTFOLIO} component={Portfolio} />
+        <Route 
+          path={routes.PORTFOLIO}
+          render={({ match: { url } }) => (
+            <>
+              <Route path={`${url}/`} component={Portfolio} /> {/*exact />*/}
+       {/*       <Route path={`${url}${routes.BUZZFEED}`} component={BuzzFeed} /> */}
+          {/*    <Route path={`${url}${routes.EQUALS_EQUALS}`} component={EqualsEquals} />  */}
+             {/* <Route path={`${url}${routes.EQUALS_EQUALS}`} component={EqualsEquals} />  */}
+            {/*  <Route path={`${url}${routes.MIT_DCI}`} component={MITDCI} />  */}
+            {/*  <Route path={`${url}${routes.SEEFOOD}`} component={SeeFood} />  */}
+            </>
+          )} 
+        />
         <Route path={routes.BLOG} component={Blog} />
         <Route path={routes.ABOUT_ME} component={AboutMe} />
         <Route path={routes.CONTACT} component={Contact} />

@@ -10,8 +10,8 @@ export const PLAYGROUND = '/playground';
 //portfolio
 export const BUZZFEED = '/buzzfeed';
 export const SEEFOOD = '/seefood';
-export const MITDCI = '/mitdci';
-export const EQUALSEQUALS = '/equalsequals';
+export const MIT_DCI = '/mit-dci';
+export const EQUALS_EQUALS = '/equals-equals';
 export const CODE2040 = '/code2040'
 export const ARDUINO_IPOD = '/arduino-ipod';
 

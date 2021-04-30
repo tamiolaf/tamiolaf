@@ -1,13 +1,14 @@
 
-function Preview({ title, description, year, displayImage, toolsUsed }) {
+function Preview({title, year, displayImage, description, toolsUsed}) {
     return (
-        <div style={{padding: '.5rem 1rem', width: '70%'}}>
-            <div style={{border: '1px solid gray', borderRadius:'6px', boxShadow:'2px 3px 5px gray', padding: '0 1rem 1rem 1rem'}}>
+        <div style={{padding: '.5rem 0'}}>
+            {console.log('hi')}
+            <div style={{border: '.1875rem solid black', borderRadius:'0px', padding: '0 1rem 1rem 1rem'}}>
                 <article>
-                    <h3 style={{padding: '0px'}}>{title} - {year}</h3>
-                    <img src={displayImage}/>
+                    <h3 style={{padding: '0px'}}>{title} ~ {year}</h3>
+                    <img style={{maxWidth: '100%'}} src={displayImage} alt=''/>
                     <div>{description}</div>
-                    <span>{toolsUsed.join(', ')}</span>
+                   <span>{toolsUsed.join(', ')}</span>
                 </article>
             </div>
         </div>
