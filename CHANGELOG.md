@@ -16,7 +16,8 @@ Different changes: Added, Changed, Deprecated, Removed, Fixed, Security
 - BuzzFeed, SeeFood, and Equals Equals portfolio previewa
 - Components for each route/view
 - Data file for portfolio previews
-- 
+- Preview Image fade-in
+- Carousels for portfolio image galleries
 
 ### Changed
 - removed striped background
