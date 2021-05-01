@@ -1,6 +1,5 @@
 import ImageFadeIn from "react-image-fade-in";
 
-
 function Preview({title, year, displayImage, description, toolsUsed}) {
     return (
         <div style={{padding: '.5rem 0'}}>
