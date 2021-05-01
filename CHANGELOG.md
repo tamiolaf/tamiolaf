@@ -9,6 +9,19 @@ Different changes: Added, Changed, Deprecated, Removed, Fixed, Security
 
 ## [Unreleased]
 
+## [1.0.0] - 2021-04-30
+### Added
+- Navbar and routing
+- Images for portfolio items
+- BuzzFeed, SeeFood, and Equals Equals portfolio previewa
+- Components for each route/view
+- Data file for portfolio previews
+- Preview Image fade-in
+- Carousels for portfolio image galleries
+
+### Changed
+- removed striped background
+
 ## [0.2.0] - 2021-03-07
 
 ### Added
