@@ -9,6 +9,12 @@ Different changes: Added, Changed, Deprecated, Removed, Fixed, Security
 
 ## [Unreleased]
 
+## [1.0.1] - 2020-06-16
+### Changed
+- Removed porfolio links
+- Added blog link
+- Homepage profile pic now fades in
+
 ## [1.0.0] - 2021-04-30
 ### Added
 - Navbar and routing
