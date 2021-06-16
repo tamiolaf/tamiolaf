@@ -1,5 +1,6 @@
-import { PORTFOLIO } from "../routes";
-import { Link } from 'react-router-dom';
+// import { PORTFOLIO } from "../routes";
+// import { Link } from 'react-router-dom';
+
 function AboutMe() {
     return (
         <div style={{padding: '0 1rem'}}>
