@@ -15,7 +15,7 @@ function AboutMe() {
                 <p>    
                     When I'm not learning about the newest frontend JavaScript framework, I love playing music and skateboarding. I spend 
                     a lot of time trying out new recipes I found on Tik Tok. I'm currently learning more about open-source and web accessibility.
-                    Check out my <Link to={PORTFOLIO}>portfolio</Link>!
+                    {/*Check out my <Link to={PORTFOLIO}>portfolio</Link>!*/}
                 </p>
             </div>
 
