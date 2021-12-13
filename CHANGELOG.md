@@ -9,6 +9,11 @@ Different changes: Added, Changed, Deprecated, Removed, Fixed, Security
 
 ## [Unreleased]
 
+## [1.0.3] - 2020-12-12
+## Changed
+- Moved inline scss to separate files
+- Some padding tweaks
+
 ## [1.0.2] - 2020-06-18
 ### Changed
 - Add tech talk link
