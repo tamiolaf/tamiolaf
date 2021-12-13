@@ -18,7 +18,7 @@ function Portfolio() {
     
     return (
         
-        <div style={{padding: '0 1rem'}}>
+        <div className="page-container">
                 <h1>Portfolio</h1>
                 <div>{showPreviews}</div>
         </div>
