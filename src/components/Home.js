@@ -1,15 +1,16 @@
-import profile_pic from '../img/profile-pic.jpeg'
+import Pronunciation from './Pronunciation';
+import profile_pic from '../img/profile-pic.jpeg';
 import ImageFadeIn from "react-image-fade-in";
 import '../scss/Home.scss';
 
-function Home() {
+const Home = () => {
 
 return (
   <div className="home">
     <main className="home_main">
       <ImageFadeIn src={profile_pic} alt={'Tami Olafunmiloye'} className="profile-pic"/>
       
-      <div className="app_box-text">Hi, I'm Tami Olafunmiloye.</div>
+      <div className="app_box-text">Hi, I'm Tami Olafunmiloye. <Pronunciation/></div>
       <div className="app_box-text">
         I'm a full stack engineer with experience in finance and media! Check out my latest <a className="home_link" href="https://drive.google.com/file/d/1rQhSaJow16yhyrydc6dTgVXeZ4yILL2Q/view?usp=sharing">tech talk</a>.
       </div>
