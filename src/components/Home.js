@@ -12,7 +12,7 @@ return (
       
       <div className="app_box-text">Hi, I'm Tami Olafunmiloye. <Pronunciation/></div>
       <div className="app_box-text">
-        I'm a full stack engineer with experience in finance and media! Check out my latest <a className="home_link" href="https://drive.google.com/file/d/1rQhSaJow16yhyrydc6dTgVXeZ4yILL2Q/view?usp=sharing">tech talk</a>.
+        I'm a full stack  engineer with experience in finance and media! Check out my latest <a className="home_link" href="https://drive.google.com/file/d/1rQhSaJow16yhyrydc6dTgVXeZ4yILL2Q/view?usp=sharing">tech talk</a>.
       </div>
       
       <ul className="home_box-icon">
