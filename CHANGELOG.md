@@ -7,9 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Different changes: Added, Changed, Deprecated, Removed, Fixed, Security
 
-## [Unreleased]
 
-## [1.0.1] - 2020-06-16
+## [1.0.4] - 2021-12-15
+## Added
+- Icon on homepage with name pronunciation
+## Changed
+- Updated package.json to get rid of scss error
+
+## [1.0.3] - 2021-12-12
+## Changed
+- Moved inline scss to separate files
+- Some padding tweaks
+
+## [1.0.2] - 2021-06-18
+### Changed
+- Add tech talk link
+
+## [1.0.1] - 2021-06-16
 ### Changed
 - Removed porfolio links
 - Added blog link
