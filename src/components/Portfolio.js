@@ -1,11 +1,11 @@
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link, useMatch } from 'react-router-dom';
 // import { BUZZFEED, SEEFOOD, MIT_DCI, EQUALS_EQUALS, CODE2040 } from '../routes';
 import Preview from './Preview';
 import { data } from '../PreviewData.js';
 
 function Portfolio() {
 
-    let { url } = useRouteMatch();
+    let { url } = useMatch();
 
     const showPreviews = data.map(previewData => (
                <div key={previewData.id.toString()}>

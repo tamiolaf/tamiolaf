@@ -1,4 +1,4 @@
-import { useParams, useRouteMatch } from 'react-router-dom';
+import { useParams, useMatch } from 'react-router-dom';
 import BuzzFeed from './PortfolioItems/BuzzFeed';
 import SeeFood from './PortfolioItems/SeeFood';
 import EqualsEquals from './PortfolioItems/EqualsEquals';
@@ -18,7 +18,7 @@ import MITDCI from './PortfolioItems/MITDCI';
 function PortfolioItem() {
     let { itemName } = useParams();
 
-    let { path, url } = useRouteMatch();
+    let { path, url } = useMatch();
 
 
     const renderPortfolioItem = () => {
