@@ -1,5 +1,5 @@
 import './scss/App.scss';
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import * as routes from './routes';
 import Portfolio from './components/Portfolio';
 import Blog from './components/Blog';
@@ -23,12 +23,12 @@ function App() {
       <header>
         <Navbar/>
       </header>
-      <Switch>
+      <Routes>
         <Route 
           path={routes.PORTFOLIO}
           render={({ match: { url } }) => (
             <>
-              <Route path={`${url}/`} component={Portfolio} /> {/*exact />*/}
+              <Route path={`${url}/`} element={Portfolio} /> {/*exact />*/}
        {/*       <Route path={`${url}${routes.BUZZFEED}`} component={BuzzFeed} /> */}
           {/*    <Route path={`${url}${routes.EQUALS_EQUALS}`} component={EqualsEquals} />  */}
              {/* <Route path={`${url}${routes.EQUALS_EQUALS}`} component={EqualsEquals} />  */}
@@ -37,13 +37,13 @@ function App() {
             </>
           )} 
         />
-        <Route path={routes.BLOG} component={Blog} />
-        <Route path={routes.ABOUT_ME} component={AboutMe} />
-        <Route path={routes.CONTACT} component={Contact} />
-        <Route path={routes.RESUME} component={Resume} />
-        <Route path={routes.PLAYGROUND} component={Playground} />
-        <Route exact path={routes.HOME} component={Home} />
-      </Switch>
+        <Route path={routes.BLOG} element={<Blog/>} />
+        <Route path={routes.ABOUT_ME} element={<AboutMe/>} />
+        <Route path={routes.CONTACT} element={<Contact/>} />
+        <Route path={routes.RESUME} element={<Resume/>} />
+        <Route path={routes.PLAYGROUND} element={<Playground/>} />
+        <Route exact path={`${routes.HOME}`} element={<Home/>} />
+      </Routes>
     </Router>
 
     </div>
