@@ -5,7 +5,7 @@ import '../scss/Home.scss';
 const Home = () => {
 
 return (
-  <div className="home">
+  <div className="home page__container">
     <main className="home_main">
       <img src={profile_pic} alt={'Tami Olafunmiloye'} className="profile-pic"/>
       
