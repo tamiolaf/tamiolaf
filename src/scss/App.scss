@@ -24,10 +24,7 @@ p {
 }
 
 .app_box-text {
-  background-color: #fff;
-  margin-top: .5rem;
-  padding: .5rem 1rem;
-  border: .1875rem solid #000;
+  margin-top: 1rem;
 }
 
 @keyframes App-logo-spin {
@@ -43,11 +40,20 @@ p {
   max-height: 20rem;
   max-width: 20rem;
   border-radius: 50%;
-  border: .1875rem solid black;
+
+  @media (max-width: 480px) {
+    max-height: 15rem;
+    max-width: 15rem;
+  }
 }
 
 .page__container {
   padding: 0 1rem;
+  margin: 0 6rem;
+
+  @media (max-width: 480px) {
+    margin: 0;
+  }
 }
 
 .app_box-text__paragraph {

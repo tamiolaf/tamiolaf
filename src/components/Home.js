@@ -5,7 +5,7 @@ import '../scss/Home.scss';
 const Home = () => {
 
 return (
-  <div className="home">
+  <div className="home page__container">
     <main className="home_main">
       <img src={profile_pic} alt={'Tami Olafunmiloye'} className="profile-pic"/>
       
@@ -14,7 +14,7 @@ return (
         I'm a full stack engineer with experience in finance and media! Check out my latest <a className="home_link" href="https://drive.google.com/file/d/1rQhSaJow16yhyrydc6dTgVXeZ4yILL2Q/view?usp=sharing">tech talk</a>.
       </div>
       
-      <ul className="home_box-icon">
+      <ul className="app_box-text home_icon-list">
         <li>
         <a className="icon" href="https://www.github.com/tamiolaf">
           <i className="fab fa-github-square fa-3x"></i>
