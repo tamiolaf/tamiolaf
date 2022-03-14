@@ -24,7 +24,7 @@ p {
 }
 
 .app_box-text {
-  margin-top: .5rem;
+  margin-top: 1rem;
 }
 
 @keyframes App-logo-spin {
@@ -40,6 +40,11 @@ p {
   max-height: 20rem;
   max-width: 20rem;
   border-radius: 50%;
+
+  @media (max-width: 480px) {
+    max-height: 15rem;
+    max-width: 15rem;
+  }
 }
 
 .page__container {

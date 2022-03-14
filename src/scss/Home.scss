@@ -17,10 +17,14 @@
   font-size: calc(10px + 2vmin);
   padding-left: 5%;
   padding-right: 5%;
+  margin: 0 4rem;
+
+  @media (max-width: 480px) {
+    margin: 0;
+  }
 }
 
-.home_box-icon {
-  margin-top: .5rem;
+.home_icon-list {
   padding: .5rem .75rem;
   display: flex;
   justify-content: space-around;
