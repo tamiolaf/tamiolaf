@@ -17,26 +17,27 @@ import Home from './components/Home';
 function App() {
 
   return (
-    <div className="" >
+    <div className="page__container" >
 
       <Router>
       <header>
         <Navbar/>
       </header>
       <Routes>
-        <Route 
+      {/*  <Route 
           path={routes.PORTFOLIO}
           render={({ match: { url } }) => (
             <>
-              <Route path={`${url}/`} element={Portfolio} /> {/*exact />*/}
+              <Route path={`${url}/`} element={<Portfolio/>} /> */} 
        {/*       <Route path={`${url}${routes.BUZZFEED}`} component={BuzzFeed} /> */}
           {/*    <Route path={`${url}${routes.EQUALS_EQUALS}`} component={EqualsEquals} />  */}
              {/* <Route path={`${url}${routes.EQUALS_EQUALS}`} component={EqualsEquals} />  */}
             {/*  <Route path={`${url}${routes.MIT_DCI}`} component={MITDCI} />  */}
             {/*  <Route path={`${url}${routes.SEEFOOD}`} component={SeeFood} />  */}
-            </>
+            {/*</>
           )} 
-        />
+            />*/}
+        <Route path={routes.PORTFOLIO + '/*'} element={<Portfolio/>} />
         <Route path={routes.BLOG} element={<Blog/>} />
         <Route path={routes.ABOUT_ME} element={<AboutMe/>} />
         <Route path={routes.CONTACT} element={<Contact/>} />
