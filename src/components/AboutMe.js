@@ -4,12 +4,12 @@ import '../scss/AboutMe.scss';
 import aboutMe from '../copy/about-me'
 function AboutMe() {
   return (
-    <div className="page__container">
+    <div>
       <h1>{aboutMe.title}</h1>
       <div className="app_box-text">
-        {aboutMe.body.map(paragraph => {
+        {aboutMe.body.map((paragraph, i) => {
           return (
-            <div className="app_box-text__paragraph">
+            <div key={i} className="app_box-text__paragraph">
               {paragraph}
             </div>
             )

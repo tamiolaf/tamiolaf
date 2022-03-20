@@ -1,8 +1,9 @@
+import data from '../../copy/mit-dci.json';
+
 const MITDCI = () => {
     return (
         <div>
-            <h1>MIT Digital Cryptocurrency Initiaitve</h1>
-            <h3>A program to get underrepresented students a head start on bitcoin</h3>
+            <h1>{data.title}</h1>
         </div>
     )
 };

@@ -1,18 +1,22 @@
 
-function Preview({title, year, displayImage, description, toolsUsed}) {
-    return (
-        <div style={{padding: '.5rem 0'}}>
-            {console.log('hi')}
-            <div style={{border: '.1875rem solid black', borderRadius:'0px', padding: '0 1rem 1rem 1rem'}}>
-                <article>
-                    <h3 style={{padding: '0px'}}>{title} ~ {year}</h3>
-                    <img style={{maxWidth: '100%'}} src={displayImage} alt=''/>
-                    <div>{description}</div>
-                   <span>{toolsUsed.join(', ')}</span>
-                </article>
-            </div>
+import '../scss/Preview.scss';
+import { NavLink } from 'react-router-dom';
+
+function Preview({title, year, description, route, displayImage, toolsUsed}) {
+  return (
+    <div className="preview__container">
+      <article className="preview__item">
+        {/*<div>
+          <img className="preview__image" src={displayImage} alt=''/>
+</div>*/}
+        <div className="preview__title-date-line">
+          <NavLink style={{'color':'black'}}to={'/portfolio' + route}><h2>{title}</h2></NavLink> <p>{year}</p>
         </div>
-    )
+        <div>{description}</div>
+        <span>{toolsUsed.join(', ')}</span>
+      </article>
+    </div>
+  )
 }
 
 export default Preview;

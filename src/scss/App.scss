@@ -60,8 +60,15 @@ p {
   padding: .5rem 0;
 }
 
-.nav-link {
+.link {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+.navbar__container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
