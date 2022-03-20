@@ -9,6 +9,7 @@ import Resume from './components/Resume';
 import Playground from './components/Playground';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Footer from './components/Footer';
 // import BuzzFeed from './components/PortfolioItems/BuzzFeed';
 // import EqualsEquals from './components/PortfolioItems/EqualsEquals';
 // import MITDCI from './components/PortfolioItems/MITDCI';
@@ -46,7 +47,9 @@ function App() {
         <Route exact path={`${routes.HOME}`} element={<Home/>} />
       </Routes>
     </Router>
-
+    <footer>
+      <Footer/>
+    </footer>
     </div>
   );
 }
