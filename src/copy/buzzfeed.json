@@ -1,3 +1,83 @@
 {
-  "title": "BuzzFeed"
+  "title": "BuzzFeed",
+  "subtitle": "A digital media company",
+  "sections": [
+    {
+      "title": "Native Instream Video Unit",
+      "details": [
+        "New video ad unit for advertisers. A large selection of unit is attractive to advertisers, especially video ones",
+        "Helped raise 750K+ in revenue"
+      ]
+    },
+    {
+      "title": "BAM (BuzzFeed Ad Manager)",
+      "details": [
+        "Saved time for business team",
+        "Helped organize and manage a higher volume of ads"
+      ]
+    },
+    {
+      "title": "Chinstrap/Badges",
+      "details": [
+        "Updating chinstrap for new promotions of articles series, podcasts, our donations etc.",
+        "Updating badges for new lists of articled with similar themes, (bodyweek, weinsteintrial)",
+        "Newsroom could share what they’re working on easily with a wide audience and consistent branding",
+        "Added new logic for news newsletter popup to make it mimic the shopping newsletter popup. This is to make the newsletter less intrusive and more user-friendly. Controlled by feature flag: bfn_newsletter_popup",
+        "Popup is not visible on page load/nPopup appears when user scrolls down and scrolls back up\nPopup appears when user clicks another tab or window, and returns\nPopup doesn't appear when user is a member of Scroll.com\nPopup disappears for a week when it is dismissed by user",
+        "as the accessibility lead, I also vetted designs that didn't have enough contrast or fonts that weren't accessible enough"
+      ]
+    },
+    {
+      "title": "Trending/Breaking Bar",
+      "details": [
+        "trending bar and breaking bar took up the same slot on the page. breaking bar replaced trending bar whenever there was breaking news. site users couldn't access the site sections menu, the tips page, support us page, or trending topics",
+        "Users can access trending tags menu when there’s breaking news"
+      ]
+    },
+    {
+      "title": "FinCEN Files",
+      "details": [
+        "Help promote finCEN files investigation that buzzfeed had been working on for years",
+        "New landing page",
+        "Spread the word a lot",
+        "5 custom packages for each number of articles (1 - 5)",
+        "Homebuilder updates for custom package",
+        "Curator updates for the new data source"
+      ]
+    },
+    {
+      "title": "Election 2020",
+      "details": [
+        "Used third party for voting results",
+        "Display election information and results in a helpful, easy to understand, and meaningful way",
+        "Showed millions of people election information during a historical election"
+      ]
+    },
+    {
+      "title": "Branch IO",
+      "details": [
+        "Increase app downloads",
+        "Branch popup would show halfway down page",
+        "Would disappear",
+        "Use branch.io banner to direct mobile users on bpages to BuzzFeed App. This will replace the chinstrap promo unit.",
+        "kinda sucked using small third party software"
+      ]
+    },
+    {
+      "title": "CCPA",
+      "details": [
+
+      ]
+    }
+    {
+      "title": "Accessibility Team",
+      "details": [
+        "Editorial Survey",
+        "BuzzFeed News Audit",
+        "Lead that meeting with edit leaders",
+        "Workshops for alt-text editorial",
+        "In house expert"
+      ]
+    }
+  ]
 }
