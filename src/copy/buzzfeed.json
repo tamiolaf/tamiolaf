@@ -5,15 +5,17 @@
     {
       "title": "Native Instream Video Unit",
       "details": [
-        "New video ad unit for advertisers. A large selection of unit is attractive to advertisers, especially video ones",
-        "Helped raise 750K+ in revenue"
+        "I helped build a new ad unit to live on BuzzFeed O&O properties. A large selection of units is attractive to potential advertisers, especially video ones, so I developed a Native Instream Video Unit for my intern project.",
+        "The new unit includes a custom video player and a playlist of BuzzFeed videos. It also includes a \"More Info\" button in case users want to watch more vidoes.",
+        "The video player would pull in a pre-roll ad before playing the selected BuzzFeed video. The banner at the top displays the logo of BuzzFeed Brand that owns the video. This unit helped bring in over 750K+ in ad revenue."
       ]
     },
     {
       "title": "BAM (BuzzFeed Ad Manager)",
       "details": [
-        "Saved time for business team",
-        "Helped organize and manage a higher volume of ads"
+        "I helped build an internal ad manager for the business team to organize ad campaigns for various companies. The users could upload assests and change settings to preview a variety of ad units before the campaign was finalized.",
+        "I used React.js to add support for two ad units. This includes an editing and previewing environment with a text editor and various swtiches/settings.",
+        "This project saved time for business team, kept them organized and allowed them to manage a higher volume of ads."
       ]
     },
     {
