@@ -28,7 +28,6 @@ const imageDisplay = (title) => {
     case 'BAM (BuzzFeed Ad Manager)':
       return (
         <div>
-          Bam pics
         </div>
       )
     case 'Chinstrap/Badges':
