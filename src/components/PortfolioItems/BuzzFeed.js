@@ -1,6 +1,20 @@
 import data from '../../copy/buzzfeed.json'
 import nativeInstreamDesktop from '../../img/BuzzFeed/native-instream/native-instream-desktop.png';
 import nativeInstream1 from '../../img/BuzzFeed/native-instream/native-instream-1.png';
+import election2020QCU from '../../img/BuzzFeed/election2020QCU/election2020QCU.png';
+import fincenFilesBannerDesktop from '../../img/BuzzFeed/fincen-files/fincen-files-banner-desktop.png';
+import fincenFilesBannerMobile from '../../img/BuzzFeed/fincen-files/fincen-files-banner-mobile.png';
+import fincenFilesPackage1Mobile from '../../img/BuzzFeed/fincen-files/fincen-files-package-1-mobile.png';
+import fincenFilesPackage1 from '../../img/BuzzFeed/fincen-files/fincen-files-package-1.png';
+import fincenFilesPackage2Mobile from '../../img/BuzzFeed/fincen-files/fincen-files-package-2-mobile.png';
+import fincenFilesPackage2 from '../../img/BuzzFeed/fincen-files/fincen-files-package-2.png';
+import fincenFilesPackage3 from '../../img/BuzzFeed/fincen-files/fincen-files-package-3.png';
+import fincenFilesPackage4 from '../../img/BuzzFeed/fincen-files/fincen-files-package-4.png';
+import fincenFilesPackage5 from '../../img/BuzzFeed/fincen-files/fincen-files-package-5.png';
+import newsTickerMobileGif from '../../img/BuzzFeed/news-ticker/news-ticker-mobile.gif';
+import newsTickerDesktop from '../../img/BuzzFeed/news-ticker/news-ticker-desktop.png';
+import ccpaFooterMobile from '../../img/BuzzFeed/ccpa/ccpa-footer-mobile.png';
+import ccpaMenuMobile from '../../img/BuzzFeed/ccpa/ccpa-menu-mobile.png';
 
 const imageDisplay = (title) => {
   switch(title) {
@@ -32,13 +46,29 @@ const imageDisplay = (title) => {
     case 'FinCEN Files':
       return (
         <div>
-          fincen files pics
+          <img style={{'width': '100%'}} src={fincenFilesBannerDesktop} />
+          <img src={fincenFilesBannerMobile} />
+          <img src={fincenFilesPackage1Mobile} />
+          <img src={fincenFilesPackage2Mobile} />
+          <img src={fincenFilesPackage1} />
+          <img src={fincenFilesPackage2} />
+          <img src={fincenFilesPackage3} />
+          <img src={fincenFilesPackage4} />
+          <img src={fincenFilesPackage5} />
         </div>
       )
     case 'Election 2020':
       return (
         <div>
-          election 2020s pics
+          <img style={{'width': '100%'}} src={election2020QCU}/>
+        </div>
+      )
+    case 'News Ticker':
+      return (
+        <div>
+          <img src={newsTickerMobileGif}/>
+          <img src={newsTickerDesktop}/>
+          news ticker picks
         </div>
       )
     case 'Branch IO':
@@ -51,6 +81,14 @@ const imageDisplay = (title) => {
       return (
         <div>
           Accessibility pics
+        </div>
+      )
+    case 'CCPA':
+      return (
+        <div>
+          <img src={ccpaFooterMobile}/>
+          <img src={ccpaMenuMobile}/>
+          ccpa footer mobile
         </div>
       )
     default: 
