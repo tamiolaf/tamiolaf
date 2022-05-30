@@ -107,13 +107,7 @@ const BuzzFeed = () => {
         return (
           <div>
             <h2>{section.title}</h2>
-            {section.details.map(detail => {
-              return (
-                <div>
-                  {detail}
-                </div>
-              )
-            })}
+            <p>{section.details.join(" ")}</p>
             {imageDisplay(section.title)}
           </div>
         )

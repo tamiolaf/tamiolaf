@@ -5,9 +5,9 @@
     {
       "title": "Native Instream Video Unit",
       "details": [
-        "I helped build a new ad unit to live on BuzzFeed O&O properties. A large selection of units is attractive to potential advertisers, especially video ones, so I developed a Native Instream Video Unit for my intern project.",
+        "I helped build a new ad unit to live on BuzzFeed O&O properties. Potential advertisers love a large selection of ad units, especially video ones, so I developed a Native Instream Video Unit for my intern project.",
         "The new unit includes a custom video player and a playlist of BuzzFeed videos. It also includes a \"More Info\" button in case users want to watch more vidoes.",
-        "The video player would pull in a pre-roll ad before playing the selected BuzzFeed video. The banner at the top displays the logo of BuzzFeed Brand that owns the video. This unit helped bring in over 750K+ in ad revenue."
+        "The video player would pull in a pre-roll ad before playing the selected BuzzFeed video. The banner at the top displays the logo of BuzzFeed Brand that owns the video. This unit helped bring in over 750k in ad revenue."
       ]
     },
     {
@@ -24,23 +24,23 @@
         "The Chinstrap is a banner that displays when users visit a page on buzzfeednews.com. It's used to promote articles, series, podcasts, our membership program, etc.",
         "My responsibilities included using html and css to build banners that matched the designs as well as vetting them for any accessibiity issues, such as insufficient contrast.",
         "Originally the Chinstrap displayed for every user anytime they visited a page unless they manually dismissed it. Most visitors on buzzfeed will view one page and leave, so this made sense at the time. We decided to take a new approach to the Chinstrap because we planned to build a more loyal, invested audience.",
-        "I added new logic for the Chinstrap to make it less intrusive and more user-friendly. I made the Chinstrap display only after a user had scrolled through over 50% of the article they we're reading. That way we could disrupt fewer readers and promote to people who are the most interested. We also made sure the popup disappeared for at least a week after being dismissed. By the time the user saw the popup again, it would most likely be promoting something new.",
-        "Popup is not visible on page load/nPopup appears when user scrolls down and scrolls back up\nPopup appears when user clicks another tab or window, and returns\nPopup doesn't appear when user is a member of Scroll.com\nPopup disappears for a week when it is dismissed by user",
-        "as the accessibility lead, I also vetted designs that didn't have enough contrast or fonts that weren't accessible enough"
+        "I added new logic for the Chinstrap to make it less intrusive and more user-friendly. I made the Chinstrap display only after a user had scrolled through over 50% of the article they we're reading. It would also appear if the user scrolled up or if they went to another tab and returned.",
+        "That way we could disrupt fewer readers and promote to people who are the most interested. We also made sure the popup disappeared for at least a week after being dismissed. By the time the user saw the popup again, it would most likely be promoting something new."
       ]
     },
     {
       "title": "Trending/Breaking Bar",
       "details": [
-        "trending bar and breaking bar took up the same slot on the page. breaking bar replaced trending bar whenever there was breaking news. site users couldn't access the site sections menu, the tips page, support us page, or trending topics",
-        "Users can access trending tags menu when there’s breaking news",
-        "python api, javascript",
-        "fixed bug where the breaking news bar and trending bar couldn't be on the page at the same time. also edited api endpoints (they were coupled)"
+        "When there's breaking news on buzzfeed.com, a unit called the Breaking Bar is shown at the top of all BuzzFeed and BuzzFeed News pages. This unit includes information on the breaking news item and a link to a relevant article.",
+        "The problem with the Breaking Bar is that it took up the same slot as another unit - the Trending Bar. The Trending Bar displayed links to articles that were trending on our website at that time, as well as a link to login and our sections menu.", 
+        "Anyone who wanted to login, look at popular articles, or view other sections of BuzzFeed News wouldn't be able to.",
+        "I redesigned the page to allow both units to exist simultaneously using html, css, and javascript. I also modified our python API to allow the data streams for the Trending and Breaking bar to be consumed separately instead of in that one unit."
       ]
     },
     {
       "title": "FinCEN Files",
       "details": [
+        "",
         "Help promote finCEN files investigation that buzzfeed had been working on for years",
         "New landing page",
         "Spread the word a lot",
