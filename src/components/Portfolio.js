@@ -13,7 +13,7 @@ const ShowPreviews = () => {
   return (
     <div>
       <h1>Portfolio</h1>
-      {data.map(item => <Preview key={item.key} {...item}/>)}
+      {data.map((item, i) => <Preview key={i} {...item}/>)}
     </div>
   )
 }

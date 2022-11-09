@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Different changes: Added, Changed, Deprecated, Removed, Fixed, Security
 
+## [1.0.5] - 2022-06-09
+## Added
+- Image Gallery and modal functionality
+- Image Modal and Portfolio Item Gallery scss files
+## Changed
+- BuzzFeed portfolio section complete
 
 ## [1.0.4] - 2021-12-15
 ## Added
