@@ -17,7 +17,7 @@ import Home from './components/Home';
 function App() {
 
   return (
-    <div className='page__container' >
+    <div className="page__container" >
 
       <Router>
       <header>

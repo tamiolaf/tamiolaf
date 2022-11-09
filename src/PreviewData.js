@@ -1,6 +1,6 @@
 
 import { BUZZFEED, SEEFOOD, EQUALS_EQUALS, CODE2040, ARDUINO_IPOD, MIT_DCI } from './routes';
-import seeFoodLogo from './img/SeeFood/Logos/SeeFoodLogo.png';
+import seeFoodLogo from './img/SeeFood/Logos/seefood-logo.png';
 import equalsEqualsLogo from './img/EqualsEquals/equalsEqualsLogo.jpg';
 import buzzfeedLogo from './img/BuzzFeed/logo/BuzzFeed_Logo.png';
 

@@ -1,3 +1,29 @@
 {
-  "title": "SeeFood"
+  "title": "SeeFood",
+  "sections": [
+    {
+      "title": "Overview",
+      "details": []
+    },
+    {
+      "title": "Apps Script Site",
+      "details": []
+    },
+    {
+      "title": "Groupchat",
+      "details": []
+    },
+    {
+      "title": "Landing Page",
+      "details": []
+    },
+    {
+      "title": "Web App",
+      "details": []
+    },
+    {
+      "title": "Impact",
+      "details": []
+    }
+  ]
 }
