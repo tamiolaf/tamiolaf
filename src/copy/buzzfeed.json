@@ -14,7 +14,7 @@
       "title": "BAM (BuzzFeed Ad Manager)",
       "details": [
         "I helped build an internal ad manager for the business team to organize ad campaigns for various companies. The users could upload assests and change settings to preview a variety of ad units before the campaign was finalized.",
-        "I used React.js to add support for two ad units. This includes an editing and previewing environment with a text editor and various swtiches/settings.",
+        "I used React.js to add support for two ad units. This included an editing and previewing environment with a text editor and various swtiches/settings.",
         "This project saved time for business team, kept them organized and allowed them to manage a higher volume of ads."
       ]
     },
@@ -23,7 +23,7 @@
       "details": [
         "The Chinstrap is a banner that displays when users visit a page on buzzfeednews.com. It's used to promote articles, series, podcasts, our membership program, etc.",
         "My responsibilities included using html and css to build banners that matched the designs as well as vetting them for any accessibiity issues, such as insufficient contrast.",
-        "Originally the Chinstrap displayed for every user anytime they visited a page unless they manually dismissed it. Most visitors on buzzfeed will view one page and leave, so this made sense at the time. We decided to take a new approach to the Chinstrap because we planned to build a more loyal, invested audience.",
+        "Originally the Chinstrap displayed for every user anytime they visited a page unless they manually dismissed it. Most visitors on BuzzFeed will view one page and leave, so this made sense at the time. We decided to take a new approach to the Chinstrap because we planned to build a more loyal, invested audience.",
         "I added new logic for the Chinstrap to make it less intrusive and more user-friendly. I made the Chinstrap display only after a user had scrolled through over 50% of the article they we're reading. It would also appear if the user scrolled up or if they went to another tab and returned.",
         "That way we could disrupt fewer readers and promote to people who are the most interested. We also made sure the popup disappeared for at least a week after being dismissed. By the time the user saw the popup again, it would most likely be promoting something new."
       ]
@@ -40,51 +40,62 @@
     {
       "title": "FinCEN Files",
       "details": [
-        "",
-        "Help promote finCEN files investigation that buzzfeed had been working on for years",
-        "New landing page",
-        "Spread the word a lot",
-        "5 custom packages for each number of articles (1 - 5)",
-        "Homebuilder updates for custom package",
-        "Curator updates for the new data source",
-        "mostly html css"
+        "The FinCEN files was a Pulitzer Prize winning, years long investigation conducted by BuzzFeed reporters that revealed corruption among the world's most powerful banks.",
+        "My team built custom assets to market the investigation across BuzzFeed O&O properties including: a new landing page, chinstrap, a custom splash header, and 5 custom packages for each number of articles.",
+        "In this case, a \"package\" is a collection of links that share a theme (seen in images below).",
+        "I used html, css, and javascript to build the packages, chinstrap, and custom splash header design.",
+        "I also used python to create a new data source, and send information about the feed to the necessary pages.",
+        "This was a fullstack project - I worked with our database as well as frontend and backend services.",
+        "This project was extremely impactful and the story was responsible for dropping the DOW 500 points."
+      ]
+    },
+    {
+      "title": "News Ticker",
+      "details": [
+        "The News Ticker is a scrolling banner that can show users a collection of articles on any page of BuzzFeed O&O properties.",
+        "A previous version of the News Ticker used a data source that had since been decommisioned, so I was tasked to connect it to our current backend data source.",
+        "I created a new data feed for the Ticker, and updated the data mappings along the data flow.",
+        "This project helped support the 2020 election news cycle because reporters could display relevant election articles together."
       ]
     },
     {
       "title": "Election 2020",
       "details": [
-        "Used third party for voting results",
-        "Display election information and results in a helpful, easy to understand, and meaningful way",
-        "Showed millions of people election information during a historical election"
+        "Every presidential election is a major news event for publications, and the 2020 election was no different.",
+        "My team created custom assets and a new landing page to display election information and results in a helpful, easy to understand, and meaningful way.",
+        "We connected to a third party for voting results, and built a unit on the homepage to show which candidate was winning in real time.",
+        "In addition, I made a custom election themed QCU (Quickly Catch Up) unit and chinstrap promotion.",
+        "We kept millions of people informed during a historical election."
       ]
     },
     {
       "title": "Branch IO",
       "details": [
-        "Increase app downloads",
-        "Branch popup would show halfway down page",
-        "Would disappear",
-        "Use branch.io banner to direct mobile users on bpages to BuzzFeed App. This will replace the chinstrap promo unit.",
-        "kinda sucked using small third party software",
-        "javascript mutation observer"
+        "My team invested in a popup to direct mobile users to our app so we could increase app downloads.",
+        "I worked with a third party service called Branch.io to handle the logic to get from the link to the app.",
+        "The popup would be triggered if a user scrolled past the halfway point of an article - we only wanted to convert engaged readers.",
+        "I used cookies to hide the popup for 7 days once the user interacted with it.",
+        "And I used the javascript mutation observer to add the clicks in the Branch.io iframe to our internal tracking service. (The event listener provided by Branch.io fired too early.)"
       ]
     },
     {
       "title": "CCPA",
       "details": [
-        "connnect to third party thing",
-        "desgined button and placement",
-        "tested with vpn"
+        "New privacy regulations require us to give California residents the option to opt-out of cookies.",
+        "Since, these residents might be visiting our site from other states, we decided to give anyone in the US the ability to opt-out of cookies.",
+        "I designed and picked the placement for the CCPA button.",
+        "The button connected to a third party that gave users access to privacy options depending on their location (CCPA or GDPR).",
+        "I tested functionality per locale with a VPN before releasing this feature."
       ]
     },
     {
       "title": "Accessibility Team",
       "details": [
-        "Editorial Survey",
-        "BuzzFeed News Audit",
-        "Lead that meeting with edit leaders",
-        "Workshops for alt-text editorial",
-        "In house expert"
+        "I served on the accessibility engineering group and was the resident accessibilty expert for my team.",
+        "The group met regularly to identify and address accessibility issues on all BuzzFeed O&O properties.",
+        "I made and distributed an editorial survey to gather information about the current state of accessibility.",
+        "Then, I completed a BuzzFeed News accessibility audit to report to an accessibility compliance service (Accessible360).",
+        "I also lead meetings with editorial leaders to brainstorm alt-text writing exercises for reporters."
       ]
     }
   ]

@@ -1,7 +1,8 @@
-import data from '../../copy/buzzfeed.json'
+import data from '../../copy/buzzfeed.json';
+import PortfolioItemSection from '../PortfolioItemSection';
 import nativeInstreamDesktop from '../../img/BuzzFeed/native-instream/native-instream-desktop.png';
 import nativeInstream1 from '../../img/BuzzFeed/native-instream/native-instream-1.png';
-import election2020QCU from '../../img/BuzzFeed/election2020QCU/election2020QCU.png';
+import breakingTrendingBar from '../img/BuzzFeed/breaking-trending-bar/breaking-trending-bar.png';
 import fincenFilesBannerDesktop from '../../img/BuzzFeed/fincen-files/fincen-files-banner-desktop.png';
 import fincenFilesBannerMobile from '../../img/BuzzFeed/fincen-files/fincen-files-banner-mobile.png';
 import fincenFilesPackage1Mobile from '../../img/BuzzFeed/fincen-files/fincen-files-package-1-mobile.png';
@@ -13,16 +14,55 @@ import fincenFilesPackage4 from '../../img/BuzzFeed/fincen-files/fincen-files-pa
 import fincenFilesPackage5 from '../../img/BuzzFeed/fincen-files/fincen-files-package-5.png';
 import newsTickerMobileGif from '../../img/BuzzFeed/news-ticker/news-ticker-mobile.gif';
 import newsTickerDesktop from '../../img/BuzzFeed/news-ticker/news-ticker-desktop.png';
+import election2020QCU from '../../img/BuzzFeed/election2020QCU/election2020QCU.png';
+import branchIO from '../img/BuzzFeed/branch-io/branch-io.png';
 import ccpaFooterMobile from '../../img/BuzzFeed/ccpa/ccpa-footer-mobile.png';
 import ccpaMenuMobile from '../../img/BuzzFeed/ccpa/ccpa-menu-mobile.png';
+
+const galleryMap = new Map([
+  ['Native Instream Video Unit', [nativeInstreamDesktop, nativeInstream1]],
+  ['BAM (BuzzFeed Ad Manager)', []],
+  ['Chinstrap', []],
+  ['Trending/Breaking Bar', []],
+  ['FinCEN Files', [
+    fincenFilesBannerDesktop,
+    fincenFilesBannerMobile,
+    fincenFilesPackage1Mobile,
+    fincenFilesPackage1,
+    fincenFilesPackage2Mobile,
+    fincenFilesPackage2,
+    fincenFilesPackage3,
+    fincenFilesPackage4,
+    fincenFilesPackage5
+  ]],
+  ['News Ticker', [newsTickerDesktop, newsTickerMobileGif]],
+  ['Election 2020', [election2020QCU]],
+  ['Branch IO', []],
+  ['CCPA', [ccpaFooterMobile, ccpaMenuMobile]],
+  ['Accessibility Team', []],
+]);
+
+const rowStyle = {
+  display: "flex",
+  flexWrap: "wrap",
+  padding: "0 4px"
+}
+
+const colStyle = {
+  flex: "25%",
+  maxWidth: "25%",
+  padding: "0 4px"
+}
 
 const imageDisplay = (title) => {
   switch(title) {
     case 'Native Instream Video Unit':
       return (
-        <div>
-          <img style={{'height':'25rem'}} src={nativeInstream1} />
-          <img style={{'width':'100%'}}src={nativeInstreamDesktop} />
+        <div style={colStyle} class="col">
+          <div style={rowStyle} class="row">
+            <img style={{'height':'25rem'}} src={nativeInstream1} />
+            <img style={{'width':'100%'}}src={nativeInstreamDesktop} />
+          </div>
         </div>
       )
     case 'BAM (BuzzFeed Ad Manager)':
@@ -44,16 +84,18 @@ const imageDisplay = (title) => {
       )
     case 'FinCEN Files':
       return (
-        <div>
-          <img style={{'width': '100%'}} src={fincenFilesBannerDesktop} />
-          <img src={fincenFilesBannerMobile} />
-          <img src={fincenFilesPackage1Mobile} />
-          <img src={fincenFilesPackage2Mobile} />
-          <img src={fincenFilesPackage1} />
-          <img src={fincenFilesPackage2} />
-          <img src={fincenFilesPackage3} />
-          <img src={fincenFilesPackage4} />
-          <img src={fincenFilesPackage5} />
+        <div style={colStyle} class="col">
+          <div style={rowStyle} class="row">
+            <img style={{'width': '100%'}} src={fincenFilesBannerDesktop} />
+            <img src={fincenFilesBannerMobile} />
+            <img src={fincenFilesPackage1Mobile} />
+            <img src={fincenFilesPackage2Mobile} />
+            <img src={fincenFilesPackage1} />
+            <img src={fincenFilesPackage2} />
+            <img src={fincenFilesPackage3} />
+            <img src={fincenFilesPackage4} />
+            <img src={fincenFilesPackage5} />
+          </div>
         </div>
       )
     case 'Election 2020':
@@ -103,14 +145,13 @@ const BuzzFeed = () => {
   return (
     <div>
       <h1>{data.title}</h1> 
-      {data.sections.map(section => {
-        return (
-          <div>
-            <h2>{section.title}</h2>
-            <p>{section.details.join(" ")}</p>
-            {imageDisplay(section.title)}
-          </div>
-        )
+      {data.sections.map((section, i) => {
+        const sectionAndImages = {
+        ...section,
+        images: galleryMap.get(section.title)
+        }
+        return <PortfolioItemSection key={i} {...sectionAndImages} />
+        
       })}
     </div>
   )
