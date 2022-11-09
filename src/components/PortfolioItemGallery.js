@@ -1,29 +1,21 @@
 import { useState } from 'react';
 import ImageModal from './ImageModal';
 
-import "../scss/PortfolioItemGallery.scss"
+import '../scss/PortfolioItemGallery.scss'
+
 const PortfolioItemGallery = ({images}) => {
   const [ selectedImage, setSelectedImage ] = useState(null);
   return (
     <div>
-      <div style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'flex-start',
-        alignItems: 'flex-start',
-      }}>
+      <div className='portfolio-item-gallery__container'>
         {images?.map((image, i) => {
           return (
             <img 
-              style={{
-                flex: '30%',
-                maxWidth: '30%',
-                padding: '.5rem .5rem'
-              }} 
+              className='portfolio-item-gallery__image'
               key={i}
               onClick={e => setSelectedImage(e.target.src)}
               src={image}
-              alt=""
+              alt=''
             />
           )
         })}

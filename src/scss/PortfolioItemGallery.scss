@@ -1,0 +1,12 @@
+.portfolio-item-gallery__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.portfolio-item-gallery__image {
+  flex: 30%;
+  max-width: 29%;
+  padding: .5rem;
+}
