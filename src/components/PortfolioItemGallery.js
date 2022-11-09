@@ -14,11 +14,17 @@ const PortfolioItemGallery = ({images}) => {
       }}>
         {images?.map((image, i) => {
           return (
-            <img style={{
-              flex: '30%',
-              maxWidth: '30%',
-              padding: '.5rem .5rem'
-            }} key={i} onClick={e => setSelectedImage(e.target.src)} src={image}/>
+            <img 
+              style={{
+                flex: '30%',
+                maxWidth: '30%',
+                padding: '.5rem .5rem'
+              }} 
+              key={i}
+              onClick={e => setSelectedImage(e.target.src)}
+              src={image}
+              alt=""
+            />
           )
         })}
       </div>

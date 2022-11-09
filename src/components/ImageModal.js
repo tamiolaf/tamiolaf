@@ -15,7 +15,7 @@ const ImageModal = ({selectedImage, setSelectedImage}) => {
         display: 'flex',
       }}
       onClick={e => {
-        if (e.target.id == 'image-modal__background') setSelectedImage(null);        
+        if (e.target.id === 'image-modal__background') setSelectedImage(null);        
       }}
     >
    
@@ -28,7 +28,8 @@ const ImageModal = ({selectedImage, setSelectedImage}) => {
           height: 'auto',
           maxWidth: '90%'
         }}
-        src={selectedImage} />
+        src={selectedImage}
+        alt=""/>
     </div>
     )
     :
