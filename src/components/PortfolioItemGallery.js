@@ -26,4 +26,4 @@ const PortfolioItemGallery = ({images}) => {
     </div>
   )
 }
-export default PortfolioItemGallery
+export default PortfolioItemGallery;
