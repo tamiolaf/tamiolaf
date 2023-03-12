@@ -3,27 +3,46 @@
   "sections": [
     {
       "title": "Overview",
-      "details": []
+      "details": [
+        "A free food event calendar for the University of Maryland College Park campus"
+      ]
     },
     {
       "title": "Apps Script Site",
-      "details": []
+      "details": [
+        "Made for emails thing"
+      ]
     },
     {
       "title": "Groupchat",
-      "details": []
+      "details": [
+        "made when email didn't work as expected",
+        "brought in crowdsourcing ideas",
+        ""
+      ]
     },
     {
       "title": "Landing Page",
-      "details": []
+      "details": [
+        "linked to web app",
+        "bootstrap template to work on communicating with customers"
+      ]
     },
     {
       "title": "Web App",
-      "details": []
+      "details": [
+        "edit, add, delete, events",
+        "chronological list",
+        "showed likes",
+        "approximately 300 signups"
+      ]
     },
     {
       "title": "Impact",
-      "details": []
+      "details": [
+        "Thousands of students helped",
+        "count up number of events"
+      ]
     }
   ]
 }
