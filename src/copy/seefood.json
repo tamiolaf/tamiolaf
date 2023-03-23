@@ -10,6 +10,10 @@
     {
       "title": "Apps Script Site",
       "details": [
+        "wanted to run a scipt on users email that looked for key words such as \"free food, pizza, cookies, subs, etc\"",
+        "The script would look for a time and date in the email as well, and then create a calendar event on ths users gcal, which could then be shared with other seefood users",
+        "this did not work, most people didn't get information about free food in their email like I did. There were also privacy concerns with this random script reading people email",
+        "On signup, the permission looked pretty scary and I had to comfort peoples concets so they'd accept",
         "Made for emails thing"
       ]
     },
@@ -17,14 +21,19 @@
       "title": "Groupchat",
       "details": [
         "made when email didn't work as expected",
-        "brought in crowdsourcing ideas",
-        ""
+        "started with about 13 ppl as a \"customer suport\" solution to email sends failing",
+        "People started posting about events there and adding each other",
+        "eventually grew to about 1300 students",
+        "Had to act as a moderator and remove poeple who were posting about things other than free food events. if poeple made jokes or put events not about free food they were removed to keep it runnning smoothly",
+        "brought in crowdsourcing ideas"
       ]
     },
     {
       "title": "Landing Page",
       "details": [
         "linked to web app",
+        "built for pitch competitions and other presentations I had to do, also to collect signups and explain the rationale behind this idea",
+        "worked on tech/businss jargon and communicatig ideas to customer quickly",
         "bootstrap template to work on communicating with customers"
       ]
     },
@@ -34,14 +43,19 @@
         "edit, add, delete, events",
         "chronological list",
         "showed likes",
-        "approximately 300 signups"
+        "approximately 300 signups",
+        "launched without email verification and immediately had to add this - someone used a profs email to sign up and post a prank event",
+        "launched the website from a hotel room in california before a tech interview"
       ]
     },
     {
       "title": "Impact",
       "details": [
         "Thousands of students helped",
-        "count up number of events"
+        "count up number of events",
+        "lots of people didn't take it seriously and thought I was just some guy trying to get free food. In the end I was able to connect thousands of students to events and organizations in their community that they wouldn't have originally heard of. ",
+        "many people would say the idea was dumb or bad and then post the events for their organization on the website or app",
+        "Got recognized all around campus because of my picture in the groupchat, and spoke some panels about entrepreneurship around campus"
       ]
     }
   ]
