@@ -24,11 +24,6 @@ return (
           <i className="fab fa-linkedin fa-3x"></i>
         </a></li>
         <li>
-        <a className="icon" href="https://www.twitter.com/tamiolaf">
-          <i className="fab fa-twitter-square fa-3x"></i>
-        </a>
-        </li>
-        <li>
           <a className="icon" href="mailto:tamiolaf@gmail.com">
             <i className="fas fa-envelope-square fa-3x"></i>
           </a>
