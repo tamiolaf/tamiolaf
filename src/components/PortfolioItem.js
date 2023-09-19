@@ -1,52 +1,18 @@
-import { useParams, useMatch } from 'react-router-dom';
-import BuzzFeed from './PortfolioItems/BuzzFeed';
-import SeeFood from './PortfolioItems/SeeFood';
-import EqualsEquals from './PortfolioItems/EqualsEquals';
-import MITDCI from './PortfolioItems/MITDCI';
-/*
-- title
-- subtitle?
-- time worked on (start date to end date)
-- description
-- display image
-- technologies worked on
+import PortfolioItemSection from './PortfolioItemSection';
 
- */
-//add 404 for prjoects that don't exist
-
-//should probably load this based on state and not based on url link
-function PortfolioItem() {
-    let { itemName } = useParams();
-
-    let { path, url } = useMatch();
-
-
-    const renderPortfolioItem = () => {
-        switch(itemName) {
-            case 'buzzfeed':
-                return <BuzzFeed/>
-            case 'seefood':
-                return <SeeFood/>
-            case 'equalsequals':
-                return <EqualsEquals/>
-            case 'mitdci':
-                return <MITDCI/>
-            default:
-                return (
-                    <div>
-                        coming soon!
-                    </div>
-                )
+const PortfolioItem = ({data, galleryMap}) => {
+  return (
+    <div>
+      <h1>{data.title}</h1>
+      {data.sections.map((section, i) => {
+        const sectionAndImages = {
+        ...section,
+        images: galleryMap.get(section.title)
         }
-
-    }
-
-    return (
-        <div>
-            {console.log(url)}
-           {renderPortfolioItem()}
-        </div>
-    )
+        return <PortfolioItemSection key={i} {...sectionAndImages} />
+      })}
+    </div>
+  )
 }
 
 export default PortfolioItem;

@@ -1,3 +1,81 @@
 {
-  "title": "SeeFood"
+  "title": "SeeFood",
+  "sections": [
+    {
+      "title": "Overview",
+      "details": [
+        "While I attended the University of Maryland College Park (UMD), I realized there were numerous daily events that advertised free food. Turnout for these events was surprisingly low. Many of my classmates asked me to share where I was finding these events when they saw me with leftovers. To increase event awareness, reduce food waste, and build campus community, I founded SeeFood: a list of free food events for the UMD campus."
+      ]
+    },
+    {
+      "title": "Bot Solutions",
+      "details": [
+        "There were many ways to aggregate free food events.",
+        "I built a Twitter bot as my first attempt to gather events.",
+        "The bot read through tweets from other Twitter accounts affiliated with UMD and retweeted any tweets with free food key words such as \"free food, pizza, cookies, subs, etc\".",
+        "Unfortunately, this failed because the event hosts did not advertise through Twitter regularly.",
+        "I knew that I heard about many free food events through email, so that medium became my focus.",
+        "I planned to run a script on users' email inboxes that looked for the same key words as in the tweets.",
+        "The script would look for a time and date in the email as well, and then create a calendar event on ths users gcal, which could then be shared with other SeeFood users.",
+        "This approach failed, most people didn't get information about free food in their email like I did.",
+        "There were also privacy concerns with this script reading people email.",
+        "On signup, the permissions needed to run the script looked invasive, and I had to comfort peoples concerns so they'd accept."
+      ]
+    },
+    {
+      "title": "Groupchat",
+      "details": [
+        "The email script had many issues - I built all this very early in my software engineering journey.",
+        "I started a groupchat called SeeFood Beta with about 13 people as a \"customer suport\" solution.",
+        "People started posting about events in the groupchat and adding their friends.",
+        "Watching the natural behavior of the students influenced me to pivot to a crowdsourcing model.",
+        "Over the next few months, SeeFood Beta grew to about 1300 students through word of mouth.",
+        "I had to act as a moderator and remove people who were posting about things other than free food events.",
+        "If people made jokes or posted events that weren't about free food they were removed to keep things runnning smoothly."
+      ]
+    },
+    {
+      "title": "Landing Page",
+      "details": [
+        "I built a landing page for pitch competitions and other presentations for entrepreneurship classes, also to collect signups and explain the rationale behind this idea.",
+        "This page had a link to the web app where students could post their events, and it served as a sign up page until the web app was live.",
+        "This helped me work on using tech/business jargon and communicating ideas to customer quickly."
+      ]
+    },
+    {
+      "title": "Web App",
+      "details": [
+        "SeeFood grew so quickly that the groupchat was no longer the best solution to share events.",
+        "We had to reach out to GroupMe support multiple times to ask for bigger chat sizes.",
+        "It was time for our own platform.",
+        "I built a web app where students could view, add, edit, or delete events.",
+        "It displayed a chronological list of events on campus as well as detailed information on events with a click.",
+        "Students could like events - this was used to gauge interest for the user base among the user base",
+        "SeeFood had approximately 300 signups in the few months it was live.",
+        "I launched without email verification and had to add it immediately after - because someone used a professors email to sign up and post a prank event",
+        "After this, I verified that each user had an active \"umd.edu\" email address.",
+        "I'll never forget that I launched the website from a hotel room in San Jose, California right before a tech interview (that I didn't pass lol)."
+      ]
+    },
+    {
+      "title": "Impact",
+      "details": [
+        "SeeFood shut its doors because I couldn't handle the stress of running a business while having a job, looking for a job after graduation, and trying to graduate with an engineering degree.",
+        "In the end I was able to connect thousands of students to events and organizations in their community that they wouldn't have originally heard of.",
+        "Many people didn't take it seriously and thought I was just some guy trying to get free food.",
+        "They would say the idea was dumb or bad and then post the events for their organization on the groupchat or website.",
+        "I got recognized all around campus because of my picture in the groupchat, and spoke on some panels about entrepreneurship around campus.",
+        "Admittedly, I spent too much time trying to convince naysayers that SeeFood had a net positive effect on the UMD community.",
+        "Some were worried about students eating the free food and leaving events immediately after.",
+        "The problem with this logic is that the was nothing stopping students from doing that before SeeFood.",
+        "Event organizers mentioned free food to entice students to show up because they knew that it worked.",
+        "Those who didn't want to entice students with free food left it off the flyer, and students who came out of pure interest would be met with a delicious surprise",
+        "Also, there were so many free food events per day that anyone could find an event that matched their interests.",
+        "Overall, running SeeFood was an invaluable experience.",
+        "It taught me more about software engineering, entrepreneurship, and community that I could've ever learned in a class.",
+        "Working with a supportive team towards the end helped me keep my sanity while juggling all the responsibilities.",
+        "The spirit of SeeFood lives on in the hearts and minds of those it touched."
+      ]
+    }
+  ]
 }
