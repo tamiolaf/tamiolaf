@@ -1,5 +1,5 @@
 import data from '../../copy/buzzfeed.json';
-import PortfolioItemSection from '../PortfolioItemSection';
+import PortfolioItem from '../PortfolioItem';
 import nativeInstreamDesktop from '../../img/BuzzFeed/native-instream/native-instream-desktop.png';
 import nativeInstream1 from '../../img/BuzzFeed/native-instream/native-instream-1.png';
 import breakingTrendingBar from '../../img/BuzzFeed/breaking-trending-bar/breaking-trending-bar.png';
@@ -42,20 +42,6 @@ const galleryMap = new Map([
   ['Accessibility Team', []],
 ]);
 
-const BuzzFeed = () => {
-  return (
-    <div>
-      <h1>{data.title}</h1> 
-      {data.sections.map((section, i) => {
-        const sectionAndImages = {
-        ...section,
-        images: galleryMap.get(section.title)
-        }
-        return <PortfolioItemSection key={i} {...sectionAndImages} />
-        
-      })}
-    </div>
-  )
-}
+const BuzzFeed = () => <PortfolioItem data={data} galleryMap={galleryMap}/>
 
 export default BuzzFeed;
