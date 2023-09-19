@@ -40,7 +40,7 @@ const galleryMap = new Map([
     businessCardFront,
     businessCardBack
   ]],
-  ["Apps Script Site", [
+  ["Bot Solutions", [
     appsScriptScreenshot1,
     appsScriptScreenshot2,
   ]],
@@ -78,6 +78,12 @@ const galleryMap = new Map([
   ]]
 ]);
 
-const SeeFood = () => <PortfolioItem data={data} galleryMap={galleryMap}/>
-
+const SeeFood = () => {
+  return (
+    <dov>
+      <PortfolioItem data={data} galleryMap={galleryMap}/>
+      <p>For more details including an interview about SeeFood, please see this <a className="home_link" href="https://medium.com/@tamiolaf/see-food-the-free-food-event-calendar-e342f69f6cf7">article</a>.</p>
+    </dov>
+  )
+}
 export default SeeFood;
