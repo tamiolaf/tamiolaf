@@ -33,6 +33,9 @@ const EqualsEquals = () => {
       <h1>Equals Equals</h1>
       <h3>A hackathon for underrepresented minorities</h3>
      {/* <img src={equalsEqualsLogo} alt=''></img>*/}
+     {/* include links to articles that are still up and mention that I worked on website*/}
+     {/* include link to twitter bot presentation*/}
+     {/* can i find the winning projects and prizes?*/}
     </div>
   )
 };
