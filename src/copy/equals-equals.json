@@ -1,3 +1,48 @@
 {
-  "title": "Equals Equals"
+  "title": "Equals Equals",
+  "sections": [
+    {
+      "title": "Overview",
+      "details": [
+        "Equals Equals was a hackathon for underrespresented minorities in tech, lead by me.",
+        "I founded the hackathon at the University of Maryland in 2018.",
+        "At the time, almost every other demographic on campus had a hackathon tailored to them.",
+        "When I spoke about the other hackathons to black and latinx students at my school, most of them had never heard of, not to mention attended, a hackathon.",
+        "I realized that they were not being considered in the marketing strategy of these hackathons.",
+        "In response to this, I worked with a team of six computer science students to build a hackathon focused on learning to encourage newcomers.",
+        "I wanted to focus on marketing to underrperestned students, mostly black and latinx.",
+        "We made sure to plan workshops all day so that people who wanted to learn all day could do so."
+      ]
+    },
+    {
+      "title": "Hackathon",
+      "details": [
+        "On March 10, 2018 at Nymburu Cultural Center, the inaugural Equals Equals hackathon took place from 9am to 9pm.",
+        "It was funded by a number of student groups and corporate sponsors including College Success Scholars, Student Entertainment Events, Office for Multi-ethnic Student Education, and Google.",
+        "We raised approximately $3000 between all the sponsors to put on the hackathon.",
+        "I was the main contact for all the sponsors, and coordinated with the venue to put on the event.",
+        "Over 100 students to attended to feed their love for technology).",
+        "I lead a workshop about using the Twitter API, and walked a class of 25 attendees through building a basic Twitter bot.",
+        "We awarded prizes to the first and second place winners.",
+        "Not as many black or latinx people as expected, and we realized this was an issue with our marketing.",
+        "People didn't know that \"underrepresented minority\" referred to black and latinx people.",
+        "Most thought it meant all minorities.",
+        "Regardless, we made sure to communicate the mission of the event at the beginning and throughout, and did not turn anyone away who supported the mission.",
+        "Our research showed that having workshops attracted more non-men to tech events, and gender diversity was strong at the event.",
+        "All in all, the event was a success."
+      ]
+    },
+    {
+      "title": "Subsequent Years",
+      "details": [
+        "A few members of the Equals Equals executive team and some volunteers were inspired to plan another hackathon for a subsequent year.",
+        "I took a step back from planning, but supported the team when needed.",
+        "They were able to engage even more students in 2019.",
+        "Equals Equals was a beautiful event for the years it existed, but after the COVID-19 pandemic in 2020, we decided to retire the event.",
+        "This experience taught me about leadership, event planning, and tailoring events to certain demographic markets",
+        "I received recognition as part of UMD's Do Good challenge and became an informal diversity consultant on campus.",
+        "2018 was an interesting time."
+      ]
+    }
+  ]
 }
