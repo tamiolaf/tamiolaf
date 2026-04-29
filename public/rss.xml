@@ -1,0 +1,121 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+<channel>
+<title>NYT > World News</title>
+<link>https://www.nytimes.com/section/world</link>
+<atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/World.xml" rel="self" type="application/rss+xml"/>
+<description/>
+<language>en-us</language>
+<copyright>Copyright 2026 The New York Times Company</copyright>
+<lastBuildDate>Wed, 29 Apr 2026 17:07:12 +0000</lastBuildDate>
+<pubDate>Wed, 29 Apr 2026 17:03:11 +0000</pubDate>
+<image>
+<title>NYT > World News</title>
+<url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+<link>https://www.nytimes.com/section/world</link>
+</image>
+<item>
+<title>Gallows Humor Provides Respite From Mideast Wars</title>
+<link>https://www.nytimes.com/2026/04/29/world/middleeast/mideast-war-humor.html</link>
+<guid isPermaLink="true">https://www.nytimes.com/2026/04/29/world/middleeast/mideast-war-humor.html</guid>
+<atom:link href="https://www.nytimes.com/2026/04/29/world/middleeast/mideast-war-humor.html" rel="standout"/>
+<description>Arab digital creators on social media are turning out edgy material to cope with the conflicts and bring levity to a pain that often feels too raw.</description>
+<dc:creator>Abdi Latif Dahir</dc:creator>
+<pubDate>Wed, 29 Apr 2026 16:17:50 +0000</pubDate>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">War and Armed Conflicts</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">US and Israeli Attack on Iran (2026)</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Iran-Israel Proxy Conflict</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Comedy and Humor</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Middle East</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lebanon</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kuwait</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United Arab Emirates</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bahrain</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Haifa Wehbe</category>
+<media:content height="1801" medium="image" url="https://static01.nyt.com/images/2026/04/27/multimedia/00int-mideast-memes-lhzv/00int-mideast-memes-lhzv-mediumSquareAt3X.jpg" width="1800"/>
+<media:credit>Diego Ibarra Sánchez for The New York Times</media:credit>
+<media:description>Samer Moumneh, wearing a red headband, recording a new sketch in a cafe in Beirut, Lebanon, last week.</media:description>
+</item>
+<item>
+<title>Epstein Obtained Objects From Islam’s Holiest Site for His Island ‘Mosque’</title>
+<link>https://www.nytimes.com/2026/04/29/world/americas/jeffrey-epstein-islam-mosque-island-kaaba-sex-offender-kiswa.html</link>
+<guid isPermaLink="true">https://www.nytimes.com/2026/04/29/world/americas/jeffrey-epstein-islam-mosque-island-kaaba-sex-offender-kiswa.html</guid>
+<atom:link href="https://www.nytimes.com/2026/04/29/world/americas/jeffrey-epstein-islam-mosque-island-kaaba-sex-offender-kiswa.html" rel="standout"/>
+<description>Jeffrey Epstein’s messages cast light on an unusual building on his private island and show how his connections helped him secure tapestries from Mecca for it.</description>
+<dc:creator>Ephrat Livni</dc:creator>
+<pubDate>Wed, 29 Apr 2026 16:16:16 +0000</pubDate>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Epstein, Jeffrey E (1953- )</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mohammed bin Salman (1985- )</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Mosques</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Caribbean Area</category>
+</item>
+<item>
+<title>Acid Attack in Indonesia Evokes Brutality of Suharto Era</title>
+<link>https://www.nytimes.com/2026/04/28/world/asia/indonesia-andrei-acid-trial.html</link>
+<guid isPermaLink="true">https://www.nytimes.com/2026/04/28/world/asia/indonesia-andrei-acid-trial.html</guid>
+<atom:link href="https://www.nytimes.com/2026/04/28/world/asia/indonesia-andrei-acid-trial.html" rel="standout"/>
+<description>The victim had protested against the widening role of the military, which activists say is reminiscent of the country’s decades-long dictatorship.</description>
+<dc:creator>Muktita Suhartono and Richard C. Paddock</dc:creator>
+<pubDate>Wed, 29 Apr 2026 03:12:54 +0000</pubDate>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Assaults</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Ethics and Official Misconduct</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Indonesia</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Prabowo Subianto</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Suharto</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Kontras (Commission for Missing Persons and Victims of Violence) (Indonesia)</category>
+<media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/04/28/multimedia/00int-indonesia-activist-01-mcqb/00int-indonesia-activist-01-mcqb-mediumSquareAt3X.jpg" width="1800"/>
+<media:credit>Bay Ismoyo/Agence France-Presse — Getty Images</media:credit>
+<media:description>A mural featuring Andrie Yunus, the deputy coordinator of the Kontras rights group, who was the victim of an acid attack, in Jakarta, Indonesia.</media:description>
+</item>
+<item>
+<title>Paraguay Says It’s Not Abandoning Taiwan. China Has Other Plans.</title>
+<link>https://www.nytimes.com/2026/04/29/world/paraguay-taiwan-china-pena.html</link>
+<guid isPermaLink="true">https://www.nytimes.com/2026/04/29/world/paraguay-taiwan-china-pena.html</guid>
+<atom:link href="https://www.nytimes.com/2026/04/29/world/paraguay-taiwan-china-pena.html" rel="standout"/>
+<description>Beijing is trying to unravel an unlikely long-distance relationship that has endured for decades. Could Paraguay be tempted to stray?</description>
+<dc:creator>Laurence Blair and María Magdalena Arréllaga</dc:creator>
+<pubDate>Wed, 29 Apr 2026 09:00:29 +0000</pubDate>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Colorado Party (Paraguay)</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Army War College</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Huawei Technologies Co Ltd</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">State Department</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pena, Santiago</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rubio, Marco</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Paraguay</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+</item>
+<item>
+<title>Stabbing in Jewish Area in North London Treated as a Terrorist Incident, Police Say</title>
+<link>https://www.nytimes.com/2026/04/29/world/europe/london-stabbing-golders-green.html</link>
+<guid isPermaLink="true">https://www.nytimes.com/2026/04/29/world/europe/london-stabbing-golders-green.html</guid>
+<atom:link href="https://www.nytimes.com/2026/04/29/world/europe/london-stabbing-golders-green.html" rel="standout"/>
+<description>Two men who were stabbed in Golders Green on Wednesday were in stable condition, the police said. One man was arrested on suspicion of attempted murder.</description>
+<dc:creator>Megan Specia and Amelia Nierenberg</dc:creator>
+<pubDate>Wed, 29 Apr 2026 16:43:56 +0000</pubDate>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Jews and Judaism</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Anti-Semitism</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Assaults</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
+<category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Golders Green (London, England)</category>
+<media:content height="1801" medium="image" url="https://static01.nyt.com/images/2026/04/29/multimedia/29int-UK-STABBING-wczk/29int-UK-STABBING-wczk-mediumSquareAt3X.jpg" width="1800"/>
+<media:credit>Justin Tallis/Agence France-Presse — Getty Images</media:credit>
+<media:description>The stabbing occurred in the Golders Green neighborhood of London, home to a large Jewish population, and came at a time of heightened anxiety after several antisemitic attacks.</media:description>
+</item>
+
+</channel>
+</rss>
